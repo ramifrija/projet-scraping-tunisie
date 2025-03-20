@@ -18,7 +18,7 @@ Ce projet est une solution de scraping pour extraire les annonces immobilières 
 ## Installation
 1. **Cloner le dépôt** :
    ```bash
-   git clone https://github.com/ton-utilisateur/projet-scraping-tunisie.git
+   git clone https://github.com/ramifrija/projet-scraping-tunisie
    cd projet-scraping-tunisie
 
 ## Dependencies
