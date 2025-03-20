@@ -1,7 +1,7 @@
 # Projet Scraping Tunisie Annonce
 
 ## Description
-Ce projet est une solution de scraping pour extraire les annonces immobilières du site `tunisie-annonce.com`. Il scrape les données, les stocke à la fois dans une base de données PostgreSQL (`scrapping`, table `tunisie_annonce`) et dans un fichier JSON (`data/annonces.json`), et les expose via une API REST construite avec FastAPI .
+Ce projet est une solution de scraping permettant d'extraire les annonces immobilières du site tunisie-annonce.com. Il collecte les données, les stocke dans une base de données PostgreSQL dont une exportation est disponible sous le nom scrapping.sql ainsi et dans un fichier JSON (data/annonces.json). De plus, ces données sont exposées via une API REST développée avec FastAPI.
 
 ## Fonctionnalités
 - **Scraping** : Extraction des annonces (titre, prix, type de bien, localisation, superficie, description, contact, date de publication, lien).
@@ -12,12 +12,12 @@ Ce projet est une solution de scraping pour extraire les annonces immobilières 
 
 ## Prérequis
 - Python 
-- PostgreSQL installé et configuré
-- Git pour cloner le dépôt
+- PostgreSQL 
+- Git 
 
 ## Installation
 1. **Cloner le dépôt** :
-   ```bash
+   
    git clone https://github.com/ramifrija/projet-scraping-tunisie
    cd projet-scraping-tunisie
 
